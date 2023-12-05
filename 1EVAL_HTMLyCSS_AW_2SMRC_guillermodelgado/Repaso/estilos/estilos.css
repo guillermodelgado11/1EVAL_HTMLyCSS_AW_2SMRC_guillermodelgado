@@ -1,0 +1,141 @@
+nav {
+    background-color: rgb(103, 18, 18);
+    color: rgb(243, 55, 132);
+    font-size: 1.4;
+    padding: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    overflow-y: auto;
+    top: 0px;
+    z-index: 100;
+
+
+}
+
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body{
+    color: red;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+nav,.container,footer{
+    max-width: 1200px;
+    min-width: 576px;
+    margin: auto;
+}
+
+nav div{
+    float: left;
+    margin-left: 20px ;
+    padding: 10px;
+}
+
+header{
+    margin-left: 25%;
+    opacity: 0.5;
+}
+
+aside {
+    background-color: rgb(15, 29, 215);
+    border-radius: 20px;
+    color: rgb(234, 30, 7)5, 0.808);
+    padding: 10px;
+    position: absolute;
+    right: 15%;
+    text-align: center;
+    top: 30%;
+    width: 20%;
+  }
+
+  aside h3 {
+    margin: 20px 0px;
+  }
+
+  .cerveceria{
+    color: blue;
+    text-align: center;
+  }
+  hr{
+    color: brown;
+    background-color: brown;
+    border: 1px brown solid;
+    width: 350px;
+  }
+
+  .logos .logo {
+    float: left;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    width: 33%;
+  }
+
+  .logos .logo img {
+    width: 50%;
+    justify-content: center;
+  }
+  .logos{
+    overflow-y: auto;
+  }
+  main {
+    margin: 0px auto;
+    width: 80%;
+  }
+
+  .bottle {
+    margin: 30px auto;
+    overflow-y: auto;
+    width: 70%;
+  }
+
+  .textazo img {
+    float: left;
+    margin-left: 10%;
+    width: 20%;
+  }
+
+
+  .textazo div {
+    float: left;
+    margin-top: 20px;
+    text-align: justify;
+    width: 50%;
+    font-size: 30.33px;
+  }
+
+  .textazo div::first-letter {
+    border-right: 1px solid #121867;
+    border-bottom: 1px solid #121867;
+    color: rgb(243, 55, 132);
+    font-weight: bolder;
+    margin-right: 10px;
+    padding-right: 10px;
+  }
+
+  .botella2{
+    margin-top: 60%;
+    margin-left: 7%;
+  }
+
+  #imagen{
+    width: 300px;
+  }
+
+li{
+    list-style-type: none;
+}
+
+#copyright{
+    text-align: center;
+}
+
+.redes{
+    float: right;
+    padding: 2px;
+}
