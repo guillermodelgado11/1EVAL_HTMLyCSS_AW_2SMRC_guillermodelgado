@@ -1,0 +1,11 @@
+
+
+@font-face {
+    font-family: "prueba";
+    src: url("../Fuentes/Minecraft.ttf");
+}
+
+
+body{font-family: "prueba", Verdana, Geneva, Tahoma, sans-serif;
+color: black;
+    }
